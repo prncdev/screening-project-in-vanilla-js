@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screening Test</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="h-screen w-full d-flex items-center justify-center">
+  <main class="container bg-white rounded-lg">
+    <h1 class="title">YAY! it's BOGO</h1>
+    <form id="root" class="d-flex flex-col gap-6 overflow-scroll-y h-full">
+
+      <!-- Price and the CTA -->
+      <section class="cta-wrapper d-flex flex-col gap-6 px-6">
+        <div class="d-flex justify-between text-sm">
+          <p class="text-primary">Free Delivery</p>
+
+          <p>Total : <span id="get-price">$0</span> <span class="text-semi-bold">USD</span> </p>
+        </div>
+
+        <div>
+          <button type="submit" class="p-5 w-full text-center bg-primary rounded border-none text-xs cursor-pointer">
+            <span class="text-lg text-semi-bold pr-3">+</span> Add to Card
+          </button>
+          <!-- Footer -->
+          <p class="text-secondary p-5">
+            Power by <span class="text-primary text-semi-bold">Pumper</span>
+          </p>
+        </div>
+      </section>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
